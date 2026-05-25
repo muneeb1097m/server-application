@@ -71,8 +71,6 @@ COPY --from=builder /app /app
 
 COPY --chown=root:root .root-fs /
 
-VOLUME /app/storage
-
 #HEALTHCHECK --interval=5m --timeout=10s \
 #  CMD wget --spider -q "http://127.0.0.1:8090/status"
 
