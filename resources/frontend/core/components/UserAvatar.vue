@@ -60,7 +60,7 @@
                 return null;
             },
             backgroundColor() {
-                return !this.username ? '#eaeaea' : null;
+                return '#DC2626';
             },
             styles() {
                 return {
