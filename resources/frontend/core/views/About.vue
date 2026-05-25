@@ -27,7 +27,7 @@
 
                     <div class="about__logo" />
 
-                    <h2>Cattr</h2>
+                    <h2>FLC tracker</h2>
                     <p class="about__version">
                         <skeleton :loading="isLoading" width="80px">{{ appData.version || 'Undefined' }}</skeleton>
                     </p>
@@ -179,8 +179,10 @@
         }
 
         &__logo {
-            background-image: url('../assets/logo.svg');
-            background-size: cover;
+            background-image: url('/logo.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
             display: block;
             height: 120px;
             margin-bottom: $layout-01;

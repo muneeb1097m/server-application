@@ -7,7 +7,7 @@
                         <div class="static-message">
                             <div class="logo" />
                         </div>
-                        <h1 class="login__title">Cattr</h1>
+                        <h1 class="login__title">FLC tracker</h1>
                     </div>
                     <template v-if="error">
                         <div>
@@ -96,8 +96,10 @@
 
                     .logo {
                         align-items: center;
-                        background: url('../../assets/logo.svg');
-                        background-size: cover;
+                        background: url('/logo.png');
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        background-position: center;
                         border-radius: 10px;
                         color: #ffffff;
                         display: flex;
@@ -123,7 +125,7 @@
         }
 
         .hero {
-            background: #6159e6 url('../../assets/login.svg') no-repeat;
+            background: #DC2626 url('../../assets/login.svg') no-repeat;
             background-size: 100%;
             display: flex;
         }

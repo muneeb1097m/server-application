@@ -154,10 +154,12 @@
         padding: 0.75em 24px;
 
         &__logo {
-            background: url('../assets/logo.svg');
-            background-size: cover;
+            background: url('/logo.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
             height: 45px;
-            width: 45px;
+            width: 120px;
             flex-shrink: 0;
         }
 
